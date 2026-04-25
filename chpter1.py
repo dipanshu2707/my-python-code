@@ -119,10 +119,36 @@
 #print(a["harry"])
 
 
-l = [2,"harry","rohan","shubham"]
+# l = [2,"harry","rohan","shubham"]
 
-i = 0
+# i = 0
 
-while(i<len(l)):
-    print(l[i])
-    i =+1
+# while(i<len(l)):
+#     print(l[i])
+#     i =+1
+
+# n = int(input("enter the number: "))
+
+# for i in range(1, n+1):
+#     print(" " * (n-i), end="")
+#     print("*" * (2*i-1), end="")
+#     print("")
+
+
+def avg():
+    a = int(input("enter your number:"))
+    b = int(input("enter your number:"))
+    c = int(input("enter your number:"))
+
+    average = (a+b+c)/3
+    print(average)
+
+avg()   
+avg()   
+avg()   
+avg()   
+avg()  
+avg()
+
+
+    
